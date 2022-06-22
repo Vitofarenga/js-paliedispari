@@ -1,7 +1,7 @@
 const userChoice = parseInt(prompt ("Scegliere un numero da 1 a 5"));
 const userChoiceDue = prompt ("Scegliere pari o dispari");
 
-if((userChoice <= 5) && (userChoice != 0)){
+if((userChoice <= 5) && (userChoice > 0)){
     console.log("Il tuo numero è: " + userChoice);
 }
 else{
