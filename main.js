@@ -1,4 +1,4 @@
-const userWord = prompt("Insrisci una parola");
+const userWord = prompt("Inserisci una parola");
 
 function palindromo(stringa){
     i = stringa.length
@@ -12,6 +12,6 @@ function palindromo(stringa){
             console.log("La parola non è palindroma");
         }
     }
-    console.log(nuovaStringa);
+    
 };
 palindromo(userWord);
